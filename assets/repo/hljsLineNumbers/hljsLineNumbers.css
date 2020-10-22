@@ -1,0 +1,26 @@
+/**
+ * CSS for highLightJS line numbers
+ */
+.hljs-table {
+   font-family: inherit;
+   font-size: inherit;
+   margin: 0;
+}
+
+.hljs-table td {
+   padding: 0 0.5em;
+   border: none;
+}
+
+.hljs-line {
+   user-select: none;
+   text-align: center;
+   color: #787878;
+   border-right: 1px solid #787878 !important;
+   vertical-align: initial;
+   white-space: nowrap;
+}
+
+.hljs-lineContent {
+   word-break: break-all;
+}

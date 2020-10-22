@@ -1,0 +1,11 @@
+/*
+ * For icons
+ */
+
+#hljs-admin {
+
+   [class^="hljsi-"]:before, [class*=" hljsi-"]::before {
+      vertical-align: -0.1em;
+   }
+
+}

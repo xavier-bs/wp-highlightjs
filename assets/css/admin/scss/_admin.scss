@@ -1,0 +1,63 @@
+/**
+ * Style ici options page
+ */
+$border-color: #dfdfdf;
+$disabled-color: #ababab;
+
+#hljs-admin {
+   
+   .description {
+      font-style: italic;
+   }
+
+   .postbox {
+      padding: 0 1em;
+   }
+
+   #hljs-metas,
+   #ace-metas {
+      position: relative;
+   }
+
+   #update-meta,
+   #update-ace-meta {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 1.6em;
+      border: 0;
+      color: inherit;
+      background: none;
+      cursor: pointer;
+      display: inline-block;
+      transition: transform 0.4s ease;
+   
+      &[disabled] {
+         color: $disabled-color;
+      }
+
+      &:hover {
+         transform: rotate(-90deg);
+      }
+
+      &:focus {
+         outline: 0;
+      }
+
+      &::before {
+         vertical-align: initial;
+      }
+
+   }
+
+
+   #uploadZipFile {
+      margin: 1em 0;
+   }
+
+   #update-meta {
+      margin: 0 0 1em;
+   }
+
+
+}

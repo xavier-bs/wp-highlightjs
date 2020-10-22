@@ -1,0 +1,30 @@
+/**
+ * Tabs
+ */
+#hljs-admin {
+   .logo {
+      width: 30px;
+      vertical-align: text-bottom;
+      margin-right: 6px;
+   }
+
+   a.nav-tab {
+      &:focus {
+         box-shadow: none;
+      }
+      &::before {
+          margin-right: 7px;
+      }
+   }
+
+   .tabs {
+      display: none;
+   }
+
+   .postbox h3.title {
+      padding: 0.6em;
+      margin: 0;
+      font-size: 1.2em;
+      border-bottom: 1px solid #EFEFEF;
+   }
+}

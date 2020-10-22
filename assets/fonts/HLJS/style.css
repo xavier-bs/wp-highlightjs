@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'HLJS';
+  src:
+    url('fonts/HLJS.ttf?7uqd7d') format('truetype'),
+    url('fonts/HLJS.woff?7uqd7d') format('woff'),
+    url('fonts/HLJS.svg?7uqd7d#HLJS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="hljsi-"]::before, [class*=" hljsi-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'HLJS' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hljsi-edit-code:before {
+  content: "\6d";
+}
+.hljsi-hljs:before {
+  content: "\61";
+}
+.hljsi-wrench:before {
+  content: "\63";
+}
+.hljsi-check:before {
+  content: "\6a";
+}
+.hljsi-close:before {
+  content: "\69";
+}
+.hljsi-download:before {
+  content: "\68";
+}
+.hljsi-refresh:before {
+  content: "\6e";
+}
+.hljsi-exclamation-triangle:before {
+  content: "\64";
+}
+.hljsi-warning:before {
+  content: "\64";
+}
+.hljsi-cogs:before {
+  content: "\62";
+}
+.hljsi-upload:before {
+  content: "\67";
+}
+.hljsi-info:before {
+  content: "\66";
+}

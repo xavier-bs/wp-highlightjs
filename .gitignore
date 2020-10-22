@@ -1,0 +1,6 @@
+assets/syntax/node_modules/
+assets/syntax/build/
+Gruntfile.js
+package.json
+GIT.md
+.git

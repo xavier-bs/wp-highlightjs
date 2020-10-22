@@ -1,0 +1,28 @@
+#hljs-admin {
+
+   .dropbox {
+      width: 25em;
+      border: 1px solid #c5c5c5;
+      background-color: #fff;
+      padding: 1em;
+      line-height: 3em;
+
+      .upload-message {
+         margin: 0 0 0.5em;
+         text-align: center;
+         line-height: 2em
+      }
+
+      input[type="file"] {
+         display: none;
+      }
+
+      .placeholder {
+         margin-left: 1em;
+         display: inline-block;
+         transform: translateY(-0.5em);
+      }
+
+   }
+
+}
