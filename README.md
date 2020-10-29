@@ -33,7 +33,7 @@ I discover that _highlighjs_ does not colored the languages functions and I was 
 
 1. Upload the entire `wp-highlighjs` directory to the `/wp-content/plugins/` directory or clone git repo in the wp plugins directory.
 ````shell
-git clone
+ggit clone https://github.com/xavier-bs/wp-highlightjs.git
 ````
 2. Go to `assets/syntax/` folder and run `npm run build`
 3. Activate **Highlight.js** block through the **Plugins** menu in WordPress.
