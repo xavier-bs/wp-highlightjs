@@ -1,12 +1,12 @@
 # Highlight.js block #
 **Contributors:**      Xavier Birnie-Scott
 **Email:**             xavier_bs@murviel-info.com, xavierbirniescott@gmail.com
-**Tags:**              code, syntax, highlight, editor  
-**Requires at least:** 4.4  
-**Tested up to:**      4.8.1 
-**Dev tag:**           1.0.0  
-**License:**           GPLv3  
-**License URI:**       http://www.gnu.org/licenses/gpl-3.0.html  
+**Tags:**              code, syntax, highlight, editor
+**Requires at least:** 4.4
+**Tested up to:**      4.8.1
+**Dev tag:**           1.0.0
+**License:**           GPLv3
+**License URI:**       http://www.gnu.org/licenses/gpl-3.0.html
 
 ## Work in progess ##
 
