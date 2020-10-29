@@ -14,8 +14,11 @@ The project is in the *development* phase.
 
 ## Description ##
 
-Add a new block to use highlight.js as code syntax highlighter.
-I wanted to do that, and I learned about React ace and React syntax highlighter. As gluttony arrives while tasting, I pushed the development by discovering React and Gutenberg always more in depth.
+Add a new block to use _highlight.js_ as code syntax highlighter.
+
+I wanted to do that, and I learned about React and React Ace. As gluttony arrives while tasting, I pushed the development by discovering React and Gutenberg always more in depth, options in InspectorControls, preview for the code and managing a button in the BlockControls Toolbar.
+
+I discover that _highlighjs_ does not colored the languages functions and I was a bit frustrated, but that it is still very fast.
 
 ## Installation ##
 
